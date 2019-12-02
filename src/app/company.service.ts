@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class CompanyService {
- url="http://192.168.2.43:9898/company"
+ url="http://172.18.6.157:9898/company"
   constructor(private helper:HttpClient) { }
   getCompany()
   {
